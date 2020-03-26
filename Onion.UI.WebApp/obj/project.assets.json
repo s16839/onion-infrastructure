@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Onion.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Onion.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Onion.Domain.dll": {}
+        }
+      },
+      "Onion.Infrastructure.MockDbService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Onion.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Onion.Infrastructure.MockDbService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Onion.Infrastructure.MockDbService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Onion.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Onion.Domain/Onion.Domain.csproj",
+      "msbuildProject": "../Onion.Domain/Onion.Domain.csproj"
+    },
+    "Onion.Infrastructure.MockDbService/1.0.0": {
+      "type": "project",
+      "path": "../Onion.Infrastructure.MockDbService/Onion.Infrastructure.MockDbService.csproj",
+      "msbuildProject": "../Onion.Infrastructure.MockDbService/Onion.Infrastructure.MockDbService.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Onion.Domain >= 1.0.0",
+      "Onion.Infrastructure.MockDbService >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jaś\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.UI.WebApp\\Onion.UI.WebApp.csproj",
+      "projectName": "Onion.UI.WebApp",
+      "projectPath": "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.UI.WebApp\\Onion.UI.WebApp.csproj",
+      "packagesPath": "C:\\Users\\Jaś\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.UI.WebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jaś\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.Domain\\Onion.Domain.csproj": {
+              "projectPath": "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.Domain\\Onion.Domain.csproj"
+            },
+            "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.Infrastructure.MockDbService\\Onion.Infrastructure.MockDbService.csproj": {
+              "projectPath": "C:\\Users\\Jaś\\Desktop\\PRO_PL\\Onion.Infrastructure.MockDbService\\Onion.Infrastructure.MockDbService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

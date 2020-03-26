@@ -1,0 +1,9 @@
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\bin\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.deps.json
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\bin\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.dll
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\bin\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.pdb
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\obj\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.csprojAssemblyReference.cache
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\obj\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.csproj.CoreCompileInputs.cache
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\obj\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.AssemblyInfoInputs.cache
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\obj\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.AssemblyInfo.cs
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\obj\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.dll
+C:\Users\Jaś\Desktop\PRO_PL\Onion.Infrastructure.SqlSeverService\obj\Debug\netcoreapp2.2\Onion.Infrastructure.SqlSeverService.pdb
